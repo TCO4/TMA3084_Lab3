@@ -422,7 +422,7 @@ class _MenuPageState extends State<MenuPage> {
                           vertical: 5,
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.white.withOpacity(0.65),
+                          color: Colors.white.withValues(alpha: 0.65),
                           borderRadius: BorderRadius.circular(20),
                         ),
                         child: const Text(
@@ -548,7 +548,7 @@ class _MenuPageState extends State<MenuPage> {
                 Text(
                   'GOTTA SIP \'EM ALL!',
                   style: TextStyle(
-                    color: cafeBrown.withOpacity(0.8),
+                    color: cafeBrown.withValues(alpha: 0.8),
                     fontWeight: FontWeight.w900,
                     letterSpacing: 2,
                     fontSize: 12,
@@ -574,7 +574,7 @@ class _MenuPageState extends State<MenuPage> {
       margin: const EdgeInsets.only(bottom: 15),
       color: Colors.white,
       elevation: 1.5,
-      shadowColor: cafeBrown.withOpacity(0.10),
+      shadowColor: cafeBrown.withValues(alpha: 0.10),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(22)),
       clipBehavior: Clip.antiAlias,
       child: Padding(
